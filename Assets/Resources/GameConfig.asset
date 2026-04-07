@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e23d23c3baa0eb4288818a7cb61b78e, type: 3}
   m_Name: GameConfig
   m_EditorClassIdentifier: 
-  platformSize: {x: 7.8, y: 3.8}
+  platformSize: {x: 7.7, y: 3.7}
   platformCenter: {x: 0, y: 0}
   surfaceOffset: 0.45
   cornerRadius: 0.85
@@ -20,6 +20,6 @@ MonoBehaviour:
   jumpSpeed: 5.5
   gravity: 15
   playerSize: {x: 0.7, y: 0.9}
-  platformViewPrefabPath: Prefabs/PlatformView
-  playerViewPrefabPath: Prefabs/PlayerView
-  mobileControlsViewPrefabPath: Prefabs/MobileControlsView
+  platformViewPrefab: {fileID: 3599699093114578535, guid: e9172ee087e69714fb0637bfabaa6f0e, type: 3}
+  playerViewPrefab: {fileID: 1510758262247839583, guid: 0cf8ac9f238334d4988e945adb9beffe, type: 3}
+  mobileControlsViewPrefab: {fileID: 439694772714185418, guid: 01c8b97302cda51428526b8cb1cf3b6d, type: 3}
